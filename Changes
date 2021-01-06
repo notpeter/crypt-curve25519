@@ -1,6 +1,15 @@
 Revision history for Perl extension Crypt::Curve25519.
 
 {{$NEXT}}
+
+0.07
+    Fixes for fmul compilation errors on debian/ubuntu i386/x64 systems.
+      - provided by taekiten
+    [minor] Build system improvements
+      - provided by Håkon Hægland
+    New maintainer: Peter Tripp (@notpeter)
+
+0.06
     Various building and XS improvements
       - provided by Leon Timmermans.
 
