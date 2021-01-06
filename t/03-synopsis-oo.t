@@ -1,4 +1,4 @@
-
+use strict;
 use Test::More;
 BEGIN { use_ok('Crypt::Curve25519') };
 
@@ -37,4 +37,3 @@ sub random_hexencoded_32_bytes {
 }
 
 done_testing();
-

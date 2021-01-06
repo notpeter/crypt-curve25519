@@ -1,4 +1,4 @@
-
+use strict;
 use Test::More;
 BEGIN { use_ok('Crypt::Curve25519', qw(curve25519_secret_key curve25519)) };
 
@@ -28,4 +28,3 @@ is( $shared_secret_with_bob, $shared_secret_with_alice,
     "Shared secrets match: ". unpack('H*', $shared_secret_with_bob));
 
 done_testing();
-

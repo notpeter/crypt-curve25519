@@ -1,5 +1,4 @@
-
-
+use strict;
 use Test::More;
 BEGIN { use_ok('Crypt::Curve25519') };
 
@@ -71,4 +70,3 @@ is( $shared_secret_with_bob_hex, unpack('H64', $shared_secret_with_alice),
 
 
 done_testing();
-

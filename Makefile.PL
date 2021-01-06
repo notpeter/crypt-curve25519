@@ -1,3 +1,4 @@
+use strict;
 use ExtUtils::MakeMaker;
 use Config;
 
@@ -11,4 +12,3 @@ WriteMakefile(
     AUTHOR         => 'Alex J. G. Burzyski <ajgb\@cpan.org>',
     DEFINE            => "-DUSE_X64=$x64",
 );
-

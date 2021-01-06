@@ -1,4 +1,4 @@
-
+use strict;
 use Test::More;
 BEGIN { use_ok('Crypt::Curve25519') };
 
@@ -33,4 +33,3 @@ eval {
 like($@, qr/Public key requires 32 bytes/, "curve25519_shared_secret(): Public key requires 32 bytes");
 
 done_testing();
-
